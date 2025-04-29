@@ -37,6 +37,12 @@ mkdir -p /root/.ssh
 echo "your-public-key-content" >> /root/.ssh/authorized_keys
 chmod 600 /root/.ssh/authorized_keys
 chmod 700 /root/.ssh
+
+or
+
+ echo "public key root@ip-10-1-1-98
+" >> /home/ubuntu/.ssh/authorized_keys
+
  
 step5:
 
